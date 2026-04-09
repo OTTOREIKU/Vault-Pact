@@ -12,6 +12,6 @@ The data has been reformatted and restructured independently for use in
 Vault Pact.
 
 ## Item Icons
-
-Item icons are served by the Trinary public CDN
+(Most icons are served from this repo)
+Item icon fallbacks are served by the Trinary public CDN
 (https://public.trinary.exchange) and are the property of CCP hf.
