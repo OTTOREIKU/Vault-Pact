@@ -17,4 +17,4 @@ Features
 + *New* **Blueprint Calculator** and ingredient lookup, pulling amounts from storage counts (*web only*)
   
   
-Built on Sui testnet (Stillness). No backend, no server, reads and writes directly on-chain.
+Built on Sui testnet (Stillness)
