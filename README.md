@@ -15,6 +15,32 @@ Features
 + System notes and network node info per structure so you always know what is where
 + SUI testnet faucet shortcut built in for easy onboarding
 + *New* **Blueprint Calculator** and ingredient lookup, pulling amounts from storage counts (*web only*)
+
+---  
+
+V3 Contract Additions:  
++ Added better contract tracking on chain for SSU ownership and deposit/withdrawal
+*(before they would sorta all jumble up as deposits/withdrawals from the wallet that set the dapp up on the SSU)*  
++ Added a migration feature for moving V1 vaults up to V3 - this can be found in the Extra Services panel at the bottom
++ Added better Delete Vault functions *(auto moves items back into player storage)* and a better item recovery function should anything get oddly stuck in a vault
++ Added a new Pact Tools panel for V3 vaults - Very much a work in progress, just messing around with what I can do:
   
+  **Plans:** Import Blueprint jobs to a shared production board where everyone can work towards building something that pull inventory totals from the shared vault
+  (I need to do more testing on this to see what the best way to flow in resources is ie. Just the shared vault or everyones vaults linked through the dapp)  
+
+  **Bulletin:** Basic message board for planning or other conversation
+  
+  **Location:** Add in location data for the SSU, this is then shared and updated below in the Structure SYSTEM column and shows for every member on the vault
+
+  All data in Pact Tools is encrypted on chain and only able to be seen/decrypted by the wallets in the member list.
+  You should also be able to see the Plans and Bulletins of those SSUs from your own SSU if you have the dapp on it.
+  I am trying to get it so you can join in on Plans from far and write messages but I need to do more testing. (let me know how it goes if you try it out)
+
++ Updated the blueprints to include what assembly makes them
+
+I moved some things like blueprints and icons over to my API instead of hosting from github. I have been working on a massive indexer and dossier project so I mostly wanted to test to see if I could get some data flowing from the server.  
+
+  
+
   
 Built on Sui testnet (Stillness)
