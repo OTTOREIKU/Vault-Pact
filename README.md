@@ -18,9 +18,10 @@ Features
 
 ---  
 
-V3 Contract Additions:  
+V3 Update and Contract Additions:  
 + Added better contract tracking on chain for SSU ownership and deposit/withdrawal
 *(before they would sorta all jumble up as deposits/withdrawals from the wallet that set the dapp up on the SSU)*  
++ Moved Blueprints and Icons over to my API
 + Added a migration feature for moving V1 vaults up to V3 - this can be found in the Extra Services panel at the bottom
 + Added better Delete Vault functions *(auto moves items back into player storage)* and a better item recovery function should anything get oddly stuck in a vault
 + Added a new Pact Tools panel for V3 vaults - Very much a work in progress, just messing around with what I can do:
@@ -38,7 +39,6 @@ V3 Contract Additions:
 
 + Updated the blueprints to include what assembly makes them
 
-I moved some things like blueprints and icons over to my API instead of hosting from github. I have been working on a massive indexer and dossier project so I mostly wanted to test to see if I could get some data flowing from the server.  
 
   
 
