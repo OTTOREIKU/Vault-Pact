@@ -37,7 +37,7 @@ V3 Update and Contract Additions:
   You should also be able to see the Plans and Bulletins of those SSUs from your own SSU if you have the dapp on it.
   I am trying to get it so you can join in on Plans from far and write messages but I need to do more testing. (let me know how it goes if you try it out)
 
-+ Updated the blueprints to include what assembly makes them
++ Updated blueprints to include what assembly makes them and fixed a bunch of incorrect blueprint costs
 
 
   
